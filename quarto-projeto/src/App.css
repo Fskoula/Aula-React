@@ -1,0 +1,32 @@
+header {
+  background-color: rgb(239, 118, 118);
+  display: flex;
+  align-items: center;
+  padding-left: 0px 20px 0px 20px;
+  justify-content: space-around;
+}
+
+header .menu {
+  width: 40%;
+}
+
+header .menu ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  list-style: none;
+}
+
+header .menu ul li{
+  transition: 0.3s;
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-family: 'Times New Roman', Times, serif;
+}
+header .menu ul li:hover {
+  transform: scale(1.1);
+}
+header .menu ul li a{
+  text-decoration: none;
+  color: black;
+}
