@@ -1,1 +1,19 @@
+<<<<<<< HEAD
 @import "tailwindcss";
+=======
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: lavender;
+}
+
+.menu {
+  background-color: lavenderblush;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+>>>>>>> 2bdb9c3d3f1d3001541e77913dffc80732a70125
