@@ -1,22 +1,13 @@
 import { useState } from 'react'
-<<<<<<< HEAD
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-=======
-import './App.css'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-
-import Home from './Pages/Home'
-import Flores from './Pages/Flores'
->>>>>>> 2bdb9c3d3f1d3001541e77913dffc80732a70125
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-<<<<<<< HEAD
       <h1 className='front-bold'> 🎂 Fernanda's Cakes 🍰</h1>
 
       <div class="grid grid-cols-6 gap-4">
@@ -36,30 +27,6 @@ function App() {
         <p className='tracking-wide text-rose-800 dark:text-rose-600 underline decoration-wavy'>Bolo de cenoura</p>
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ7aH710q8EZLW4CIHHxpozzXinlPHr9yv_w&s" width="100px" height="100px" alt="imagem bolo" className='rounded-md'/>
         </div>
-=======
-      <div className="container">
-        <header>
-          <div className="logo">
-            <p>🌷 <h1>Lila's Floricultura</h1> </p>
-          </div>
-          <nav>
-            <ul className="menu">
-              <li>
-                <a href="/">Home</a>
-              </li>
-              <li>
-                <a href="/Flores">Flores</a>
-              </li>
-            </ul>
-          </nav>
-        </header>
-        <Router>
-          <Routes>
-            <Route path="/" Component={Home} />
-            <Route path="/Flores" Component={Flores} />
-          </Routes>
-        </Router>
->>>>>>> 2bdb9c3d3f1d3001541e77913dffc80732a70125
       </div>
     </>
   )
