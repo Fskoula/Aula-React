@@ -1,0 +1,34 @@
+{
+"food": [
+    {
+      "id": "1",
+      "nome": "Sopa de Algas Luminescentes",
+      "ingredientes": ["algas luminescentes", "caldo de vegetais", "especiarias futuristas"],
+      "preco": 25.00
+    },
+    {
+      "id": "2",
+      "nome": "Burger de Proteína Sintética",
+      "ingredientes": ["proteína sintética", "pão de grãos antigos", "molho de trufas", "salada de microvegetais"],
+      "preco": 35.00
+    },
+    {
+      "id": "3",
+      "nome": "Risoto de Quinoa Espacial",
+      "ingredientes": ["quinoa", "cogumelos galácticos", "queijo vegano", "ervas aromáticas"],
+      "preco": 30.00
+    },
+    {
+      "id": "4",
+      "nome": "Taco de Insetos Gourmet",
+      "ingredientes": ["tortilha de milho", "insetos crocantes", "guacamole de abacate", "salsa de frutas"],
+      "preco": 20.00
+    },
+    {
+      "id": "5",
+      "nome": "Sorvete de Nuvens de Algodão",
+      "ingredientes": ["nuvens de algodão", "sorvete de frutas exóticas", "granulado de estrelas"],
+      "preco": 15.00
+    }
+  ]
+}
